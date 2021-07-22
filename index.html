@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8" />
+    <title>feynman studio</title>
+    <meta
+      name="feynman studo"
+      content="design studio for Ruby on Rails, JavaScript, React, Shopify, Wordpress projects"
+    />
+    <meta name="author" content="feynman studo website" />
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script defer src="js/fontawesome/all.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
+
+  <body id="top">
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+      <div id="loader" class="dots-fade">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+      <div class="s-header__logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Homepage" />
+        </a>
+      </div>
+
+      <div class="s-header__content">
+        <nav class="s-header__nav-wrap">
+          <ul class="s-header__nav">
+            <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li>
+            <li>
+              <a class="smoothscroll" href="#about" title="About">About</a>
+            </li>
+            <li>
+              <a class="smoothscroll" href="#services" title="Services"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a class="smoothscroll" href="#portfolio" title="Works">Works</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- end s-header__nav-wrap -->
+
+        <a
+          href="mailto:alok.rai@berkeley.edu"
+          class="btn btn--primary btn--small"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"
+            />
+          </svg>
+          Get In Touch
+        </a>
+      </div>
+      <!-- end header-content -->
+
+      <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+    </header>
+    <!-- end s-header -->
+
+    <!-- hero
+    ================================================== -->
+    <section id="hero" class="s-hero target-section">
+      <div class="s-hero__bg">
+        <div class="gradient-overlay"></div>
+      </div>
+
+      <div class="row s-hero__content">
+        <div class="column">
+          <h1>Hello.</h1>
+          <div class="s-hero__content-about">
+            <p>
+              We are <span style="color: red">feynman studio</span>.
+              <br />
+              We specialize in building Minimum Viable Product for new ideas
+              <br />
+              We translate ideas to Web app/Mobile App/E-commerce stores
+
+            </p>
+
+            <footer>
+              <div class="s-hero__content-social">
+                <a href="#0"
+                  ><i class="fab fa-facebook-f" aria-hidden="true"></i
+                ></a>
+                <a href="#0"
+                  ><i class="fab fa-twitter" aria-hidden="true"></i
+                ></a>
+                <a href="#0"
+                  ><i class="fab fa-instagram" aria-hidden="true"></i
+                ></a>
+                <a href="#0"
+                  ><i class="fab fa-dribbble" aria-hidden="true"></i
+                ></a>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hiding the video for now  -->
+      <!-- <div class="s-hero__video">
+        <a
+          class="s-hero__video-link"
+          href="https://player.vimeo.com/video/475818409?color=01aef0&amp;title=0&amp;byline=0&amp;portrait=0"
+          data-lity=""
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path d="M21 12l-18 12v-24z" />
+          </svg>
+          <span class="s-hero__video-text">Play Video</span>
+        </a>
+      </div> -->
+
+      <div class="s-hero__scroll">
+        <a href="#about" class="s-hero__scroll-link smoothscroll">
+          Scroll Down
+        </a>
+      </div>
+    </section>
+    <!-- end s-hero -->
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about">
+      <div class="horizontal-line"></div>
+
+      <div class="row">
+        <div class="column large-12">
+          <div class="section-title" data-num="01" data-aos="fade-up">
+            <h3 class="h6">Who We Are</h3>
+          </div>
+        </div>
+
+        <div class="column large-6 w-900-stack s-about__intro-text">
+          <h1 class="display-1" data-aos="fade-up">
+            feynman studio is a digital agency based in Paris and London run by
+            software engineers who care about building great products.
+          </h1>
+
+          <p class="lead" data-aos="fade-up">
+            We seek to understand, design, and build innovative mobile and web
+            apps, delightful websites, and beautiful e-commerce stores using our
+            4D development model.
+          </p>
+        </div>
+
+        <div class="column large-6 w-900-stack s-about__photo-block">
+          <div class="s-about__photo" data-aos="fade-up"></div>
+        </div>
+      </div>
+
+      <div
+        class="row block-large-1-2 block-tab-full s-about__process item-list"
+      >
+        <div class="column item item-process" data-aos="fade-up">
+          <h3 class="item-title">Define</h3>
+          <p>
+            Our initial consultation consists of at least two meetings to
+            understand and define your problem, pain points, and use cases.
+            We also require mandatory meetings with end-users.
+            Thereafter, we present the problem statement: a clear articulation
+            of your needs. The problem statement is reviewed and revised by all
+            parties, and the problem statement remains our North
+            Star during entire development cycle.
+          </p>
+        </div>
+        <div class="column item item-process" data-aos="fade-up">
+          <h3 class="item-title">Design</h3>
+          <p>
+            We design our solution fitting your needs. This could be wireframe,
+            a prototype, or a simplified functioning version of the final
+            product. The emphasis is on defining the solution quickly and
+            refining it iteratively with user feedback.
+          </p>
+        </div>
+        <div class="column item item-process" data-aos="fade-up">
+          <h3 class="item-title">Develop</h3>
+          <p>
+            Our favorite part. Here, we put our heads down and build a well-
+            documented, thoroughly tested product for use. We present our
+            product, match with with our problem statement, and make any changes
+            necessary to solve our initial problem. We prefer to keep the stack simple,
+            using popular technologies: Ruby on Rails, ReactJS, and NodeJS.
+          </p>
+        </div>
+        <div class="column item item-process" data-aos="fade-up">
+          <h3 class="item-title">Deploy</h3>
+          <p>
+            We take into account the operational capabilities of our client to
+            recommend a deployment strategy and solution, and train client's
+            team to effectively use our solutions. We also offer maintenance and
+            support.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end s-about -->
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services">
+      <div class="row">
+        <div class="column large-12">
+          <div class="section-title" data-num="02" data-aos="fade-up">
+            <h3 class="h6">Our Expertise</h3>
+          </div>
+        </div>
+        <div class="column large-6 w-900-stack">
+          <h1 class="display-1" data-aos="fade-up">
+            Our primary expertise is product development: we translate your ideas into web or mobile appplications.
+            <br />
+            Whatever you can conceive of, we can build
+          </h1>
+        </div>
+        <div class="column large-6 w-900-stack">
+          <p class="lead" data-aos="fade-up">
+            We specialise in web technologies: from Full-Stack Web Development
+            to E-Commerce platforms, aimed at helping our clients realise their
+            vision and grow their business online. We focus on results and
+            provide advice based on your needs. Using our technical skill and
+            industry insight, we get you to your digital goals.
+            <a href="mailto:alok.rai@berkeley.edu"
+              >Let's talk about kickstarting your project.</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="row block-large-1-2 block-tab-full s-services__services item-list"
+      >
+        <div class="column item item-service" data-aos="fade-up">
+          <span class="service-icon service-icon--product-design"></span>
+          <h3 class="item-title">Fullstack Web App Development</h3>
+          <p>
+            We build amazing, innovative, highly performant web applications
+            with Runy on Rails, JavaScript (NodeJS, React), and ♥️.
+          </p>
+        </div>
+        <div class="column item item-service" data-aos="fade-up">
+          <span class="service-icon service-icon--branding"></span>
+          <h3 class="item-title">Website</h3>
+          <p>
+            We build beautiful, intuitive website for clients ranging from
+            universities to startups.
+          </p>
+        </div>
+        <div class="column item item-service" data-aos="fade-up">
+          <span class="service-icon service-icon--frontend"></span>
+          <h3 class="item-title">Mobile App Development</h3>
+          <p>
+            Custom, novel mobile app development for iOS & Android using React
+            Native.
+          </p>
+        </div>
+        <div class="column item item-service" data-aos="fade-up">
+          <span class="service-icon service-icon--research"></span>
+          <h3 class="item-title">E-Commerce</h3>
+          <p>
+            We design and develop scalable and flexible eCommerce solutions
+            tailored to your needs. Our clients range from small businesses to
+            international brands. We are
+            <a
+              href="https://www.shopify.com/plus/partners"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Shopify Plus partner
+            </a>
+            and offer specialized services migrating to or building on Shopify.
+            We also offer WordPress (WooCommerce) services based on client's
+            needs.
+          </p>
+        </div>
+        <div class="column item item-service" data-aos="fade-up">
+          <span class="service-icon service-icon--illustration"></span>
+          <h3 class="item-title">Blockchain and Cryptocurrencies</h3>
+          <p>
+            Based on our original academic research and experience, we are one
+            of the few agencies offering end-to-end blockchain development.
+            Bring us your Crypto vision and we will bring it to life.
+          </p>
+        </div>
+        <div class="column item item-service" data-aos="fade-up">
+          <span class="service-icon service-icon--ecommerce"></span>
+          <h3 class="item-title">Tech Consulting</h3>
+          <p>
+            For startups, we provide rapid MVP development. We assist smaller
+            organizations needing to scale quickly by selecting and deploying
+            latest technologies, writing custom software and maintaining
+            reliability — at a pace that’s right.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end s-services -->
+
+    <section id="portfolio" class="s-portfolio">
+      <div class="row s-porfolio__top">
+        <div class="column large-6 w-900-stack">
+          <div class="section-title" data-num="03" data-aos="fade-up">
+            <h3 class="h6">Recent Works</h3>
+          </div>
+        </div>
+        <div class="column large-6 w-900-stack">
+          <h1 class="display-1" data-aos="fade-up">
+            Here are some of our projects we've worked on lately. Feel free to
+            check them out.
+          </h1>
+        </div>
+      </div>
+      <!-- end s-portfolio__top-->
+
+      <div
+        class="row s-portfolio__list block-large-1-2 block-tab-full collapse"
+      >
+        <div class="column" data-aos="fade-up">
+          <div class="folio-item">
+            <div class="folio-item__thumb">
+              <a
+                class="folio-item__thumb-link"
+                href="images/portfolio/dog.png"
+                title="Twiggs Homepage"
+                data-size="1050x700"
+              >
+                <img src="images/portfolio/dog.png" alt="Twiggs and Co" />
+              </a>
+            </div>
+            <div class="folio-item__info">
+              <div class="folio-item__cat">E-Commerce - Wordpress</div>
+              <h4 class="folio-item__title">Twiggs & Co</h4>
+            </div>
+            <a
+              href="https://twiggsandco.com"
+              title="Project Link"
+              class="folio-item__project-link"
+              >Project Link</a
+            >
+            <div class="folio-item__caption">
+              <!-- <p>
+                Vero molestiae sed aut natus excepturi. Et tempora numquam.
+                Temporibus iusto quo.Unde dolorem corrupti neque nisi.
+              </p> -->
+            </div>
+          </div>
+        </div>
+        <!-- end column -->
+        <div class="column" data-aos="fade-up">
+          <div class="folio-item">
+            <div class="folio-item__thumb">
+              <a
+                class="folio-item__thumb-link"
+                href="images/portfolio/fuell.jpg"
+                title="Fuell"
+                data-size="1050x700"
+              >
+                <img src="images/portfolio/fuell.jpg" alt="Fuell" />
+              </a>
+            </div>
+            <div class="folio-item__info">
+              <div class="folio-item__cat">E-Commerce - Shopify Plus</div>
+              <h4 class="folio-item__title">Fuell</h4>
+            </div>
+            <a
+              href="https://fuell.us"
+              title="Project Link"
+              class="folio-item__project-link"
+              >Project Link</a
+            >
+            <div class="folio-item__caption">
+              <!-- <p>
+                Vero molestiae sed aut natus excepturi. Et tempora numquam.
+                Temporibus iusto quo.Unde dolorem corrupti neque nisi.
+              </p> -->
+            </div>
+          </div>
+        </div>
+        <!-- end column -->
+        <div class="column" data-aos="fade-up">
+          <div class="folio-item">
+            <div class="folio-item__thumb">
+              <a
+                class="folio-item__thumb-link"
+                href="images/portfolio/valencia-2.png"
+                title="OI Logo"
+                data-size="1050x700"
+              >
+                <img
+                  src="images/portfolio/valencia-2.png"
+                  alt="Port Valencia"
+                />
+              </a>
+            </div>
+            <div class="folio-item__info">
+              <div class="folio-item__cat">Full-Stack Web Application</div>
+              <h4 class="folio-item__title">Port Valencia</h4>
+            </div>
+            <a
+              href="https://www.valenciaport.com/en/"
+              title="Port Valencia: Document processing"
+              class="folio-item__project-link"
+              target="_blank"
+              >Project Link</a
+            >
+            <div class="folio-item__caption">
+              <!-- <p>
+                Vero molestiae sed aut natus excepturi. Et tempora numquam.
+                Temporibus iusto quo.Unde dolorem corrupti neque nisi.
+              </p> -->
+            </div>
+          </div>
+        </div>
+        <!-- end column -->
+        <div class="column" data-aos="fade-up">
+          <div class="folio-item">
+            <div class="folio-item__thumb">
+              <a
+                class="folio-item__thumb-link"
+                href="images/portfolio/jamber-4.png"
+                title="Corrugated Sheets"
+                data-size="1050x700"
+              >
+                <img src="images/portfolio/jamber-4.png" alt="Jamber" />
+              </a>
+            </div>
+            <div class="folio-item__info">
+              <div class="folio-item__cat">E-Commerce - Wordpress</div>
+              <h4 class="folio-item__title">Jamber Online</h4>
+            </div>
+            <a
+              href="https://jamberonline.com/"
+              title="Jamber"
+              class="folio-item__project-link"
+              target="_blank"
+              >Project Link</a
+            >
+            <div class="folio-item__caption">
+              <!-- <p>
+                Vero molestiae sed aut natus excepturi. Et tempora numquam.
+                Temporibus iusto quo.Unde dolorem corrupti neque nisi.
+              </p> -->
+            </div>
+          </div>
+        </div>
+        <!-- end column -->
+        <!-- <div class="column" data-aos="fade-up">
+          <div class="folio-item">
+            <div class="folio-item__thumb">
+              <a
+                class="folio-item__thumb-link"
+                href="images/portfolio/gallery/g-woodcraft.jpg"
+                title="Sand Dunes"
+                data-size="1050x700"
+              >
+                <img
+                  src="images/portfolio/woodcraft.jpg"
+                  srcset="
+                    images/portfolio/woodcraft.jpg    1x,
+                    images/portfolio/woodcraft@2x.jpg 2x
+                  "
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="folio-item__info">
+              <div class="folio-item__cat">Frontend Design</div>
+              <h4 class="folio-item__title">Wooocraft</h4>
+            </div>
+            <a
+              href="https://www.behance.net/"
+              title="Project Link"
+              class="folio-item__project-link"
+            >
+              Project Link
+            </a>
+            <div class="folio-item__caption">
+              <p>
+                Vero molestiae sed aut natus excepturi. Et tempora numquam.
+                Temporibus iusto quo.Unde dolorem corrupti neque nisi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end column -->
+        <!-- <div class="column" data-aos="fade-up">
+          <div class="folio-item">
+            <div class="folio-item__thumb">
+              <a
+                class="folio-item__thumb-link"
+                href="images/portfolio/gallery/g-lamp.jpg"
+                title="The Lamp"
+                data-size="1050x700"
+              >
+                <img
+                  src="images/portfolio/lamp.jpg"
+                  srcset="
+                    images/portfolio/lamp.jpg    1x,
+                    images/portfolio/lamp@2x.jpg 2x
+                  "
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="folio-item__info">
+              <div class="folio-item__cat">Frontend Design</div>
+              <h4 class="folio-item__title">The Lamp</h4>
+            </div>
+            <a
+              href="https://www.behance.net/"
+              title="Project Link"
+              class="folio-item__project-link"
+              >Project Link</a
+            >
+            <div class="folio-item__caption">
+              <p>
+                Vero molestiae sed aut natus excepturi. Et tempora numquam.
+                Temporibus iusto quo.Unde dolorem corrupti neque nisi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end column -->
+      </div>
+      <!-- folio-list -->
+    </section>
+    <!-- end s-portfolio -->
+
+    <!-- contact
+    ================================================== -->
+    <section class="s-contact">
+      <div class="row narrower s-contact__top h-text-center">
+        <div class="column">
+          <h3 class="h6">Get In Touch</h3>
+          <h1 class="display-1">
+            Have an idea or an epic project in mind? Talk to us. Let us work
+            together and make something great. Shoot us a message at
+          </h1>
+        </div>
+      </div>
+      <!-- s-footer__top -->
+
+      <div class="row h-text-center">
+        <div class="column">
+          <p class="s-contact__email">
+            <a href="mailto:alok.rai@berkeley.edu">alok.rai@berkeley.edu</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end s-contact -->
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer">
+      <div class="row row-y-top">
+        <div class="column large-8 medium-12">
+          <div class="row">
+            <div class="column large-7 tab-12 s-footer__block">
+              <h4 class="h6">We Are Based In</h4>
+              <p>
+              London <br />
+              Paris
+              </p>
+            </div>
+            <div class="column large-5 tab-12 s-footer__block">
+              <h4 class="h6">Follow Us</h4>
+
+              <ul class="s-footer__list">
+                <!-- <li><a href="#0">Facebook</a></li> -->
+                <li><a href="https://twitter.com/FeynmanStudio">Twitter</a></li>
+                <li>
+                  <a href="https://www.instagram.com/feynmanstudio/"
+                    >Instagram</a
+                  >
+                </li>
+                <!-- <li><a href="#0">Dribbble</a></li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="column large-4 medium-12 s-footer__block--end">
+          <a href="mailto:alok.rai@berkeley.edu" class="btn h-full-width"
+            >Let's Talk</a
+          >
+
+          <div class="ss-copyright">
+            <span
+              >Copyright
+              <a href="https://feynman.studio">feynman studio </a></span
+            >
+            <span
+              >Design by
+              <a href="https://www.styleshout.com/">StyleShout</a></span
+            >
+          </div>
+        </div>
+
+        <div class="ss-go-top">
+          <a class="smoothscroll" title="Back to Top" href="#top"> top </a>
+        </div>
+        <!-- end ss-go-top -->
+      </div>
+    </footer>
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button
+              class="pswp__button pswp__button--close"
+              title="Close (Esc)"
+            ></button>
+            <button
+              class="pswp__button pswp__button--share"
+              title="Share"
+            ></button>
+            <button
+              class="pswp__button pswp__button--fs"
+              title="Toggle fullscreen"
+            ></button>
+            <button
+              class="pswp__button pswp__button--zoom"
+              title="Zoom in/out"
+            ></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"
+          >
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button
+            class="pswp__button pswp__button--arrow--left"
+            title="Previous (arrow left)"
+          ></button>
+          <button
+            class="pswp__button pswp__button--arrow--right"
+            title="Next (arrow right)"
+          ></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end photoSwipe background -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
